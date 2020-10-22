@@ -1,7 +1,7 @@
 /* DEBUG:  */
 .debug [class*="col-"]{
   height: 200px;
-  background: pink;
+  background: #FFC0CB;
   border: 1px solid black;
 }
 

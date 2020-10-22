@@ -1,0 +1,21 @@
+span{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.col-6 > .col-2,
+.col-6 > .col-8,
+.col-6 > .col-6 {
+  height: calc(200px - (6px *2));
+  border: 1px solid white;
+  background: #F07F80;
+}
+
+.p_5{
+  padding: 5px;
+}
